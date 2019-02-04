@@ -26,4 +26,13 @@ $(document).ready(function(){
 				$(".header-bottom").removeClass('blured');}
 				)
 });
+
+$(document).ready(function(){
+	$('.introduce').hover(
+			function(){
+				$(".lime-line").addClass('hover-width');},
+			function(){
+				$(".lime-line").removeClass('hover-width');}
+				)
+});
 	
