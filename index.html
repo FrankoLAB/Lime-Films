@@ -6,23 +6,25 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Dosis|Lato:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
 	<header>
 		<div class="header-top">
-			<div class="header-logo">
+			<a href="#" class="header-logo">
 				<div class="logo-img"></div>
 				<div class="logo-text">Lime Films</div>
-			</div>
-			<div class="header-nav">
+			</a>
+			<div class="header-nav" id="menu">
 				<a class="header-link" href="#">home</a>
-				<a class="header-link" href="#">videos</a>
-				<a class="header-link" href="#">contacts</a>
+				<a class="header-link" href="#features">features</a>
+				<a class="header-link" href="#gallery">videos</a>
+				<a class="header-link" href="#contact">contact</a>
 			</div>
 		</div>
 		<div class="header-bottom">
 			<h4 class="header-title-top">production</h4>
-			<h2 class="header-title">lime    films</h2>
+			<h2 class="header-title">lime films</h2>
 			<h4 class="header-title-bottom">Andrei Franko</h4>
 		</div>
 	</header>
@@ -38,7 +40,7 @@
 		</div>
 	</section>
 	<section class="parallax parallax-1">any location for shooting</section>
-	<section class="features">
+	<section class="features" id="features">
 		<h4 class="title features-title">My features</h4>
 		<div class="features-wrap">
 			<div class="feature-col">
@@ -72,7 +74,7 @@
 		</div>
 	</section>
 	<section class="parallax parallax-2">keep all feelings</section>
-	<section class="gallery">
+	<section class="gallery" id="gallery">
 		<div class="video video-1"></div>
 		<div class="video video-2"></div>
 		<div class="video video-3"></div>
@@ -81,14 +83,25 @@
 		<div class="video video-6"></div>
 	</section>
 	<section class="parallax parallax-2">keep all feelings</section>
-	<footer>
+	<footer id="contact">
 		<h4 class="footer-title"></h4>
 		<div class="footer-bottom">
-			<div class="footer-bottom-rights"></div>
-			<div class="footer-bottom-socials"></div>
+			<div class="footer-bottom-rights">
+				<i class="far fa-copyright"></i>
+				<p>Copyright</p>
+			</div>
+			<div class="footer-bottom-socials">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-vk"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			</div>
 		</div>
 	</footer>
-
+	<div class="scrollup">
+  		<i class="fa fa-chevron-up"></i>
+	</div>
 
 
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
